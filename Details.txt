@@ -1,0 +1,24 @@
+The project "Financial analysis of Indian bank stocks" is a data analysis project that utilizes Python libraries such as NumPy, Pandas, Matplotlib, and Seaborn. The project aims to analyze the financial performance of different Indian banks by studying their stock prices over a certain period of time
+
+The project aimed to analyze the financial health and market performance of these banks in the past decade 2012-2022 based on historical data, including stock prices, trading volumes, and financial ratios. The analysis aimed to identify patterns and trends that could help investors make informed decisions on whether to invest in these banks' stocks.
+
+The project involved several stages, including data collection, cleaning and processing, exploratory data analysis, and visualizations.
+
+Stocks chosen for analysis includes top private banks such as HDFC, IDFC bank. and also public banks such as PNB, YES bank were deliberately chosen to identify past scams in them.
+
+The project starts by collecting historical stock prices of Indian banks from reliable sources, such as Yahoo Finance. The collected data is then cleaned, processed, and transformed using Pandas, which is a powerful data manipulation library in Python. NumPy, a numerical computing library, is used to perform mathematical operations on the data, such as calculating stock returns, standard deviations, and correlations.
+
+To find the performance of stocks, a returns dataframe was created which uses the pct_change method to get single day change of stock prices.
+
+The project uses data visualization tools such as Matplotlib and Seaborn to create charts, graphs, and plots that help to illustrate trends and patterns in the data. These visualizations can be used to identify potential opportunities for investment or to gain insights into the performance of different banks.
+
+Some of the visualizations include pairplot betweeen price percentage changes, distribution charts, prices to date chart, Moving average of prices for technical analysis, heatmap of the correlation between the stocks close price, seaborn's cluster map to cluster the correlations together.
+
+Finally, the project provides a comprehensive analysis of the data, including key statistics and trends in the stock prices of Indian banks. The analysis includes parameters such as the maximum and minimum close prices observed during the period, the average return on stocks, the total volume traded, and the standard deviation on returns. These parameters provide valuable insights into the performance of different banks and can help investors make informed decisions about their investments to stay up-to-date with the latest trends in the Indian banking industry.
+
+The output of the project included various charts and graphs illustrating the performance of each bank's stock, as well as tables summarizing the key financial metrics. The output provided valuable insights into the performance of different banks.
+
+Some uncertainaties were observed in YES bank and PNB bank. The best bank to invest came out to be HDFC bank. Result also revealed stock market crashes in covid pandemic 2020, Demonetization 2017 etc.
+
+The project's output included various charts and graphs illustrating the performance of each bank's stock, as well as tables summarizing the key financial metrics.
+Overall, this project demonstrates how Python libraries can be used to perform financial analysis and gain insights into the performance of Indian banks based on various parameters
